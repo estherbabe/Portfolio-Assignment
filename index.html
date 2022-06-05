@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage Esther</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="nav container">
+        <a href="#" class="logo">Esther</a>
+        <ul class="navbar">
+          <li><a href="#home" class="nav_link">Home</a></li>
+          <li><a href="#about" class="nav_link">About</a></li>
+          <li><a href="#contact" class="nav_link">Contact</a></li>
+          <li><a href="#register" class="nav_link">Register</a></li>
+          <li><a href="#login" class="nav_link">Log In</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="home container" id="home">
+      <div class="home_content">
+        <div class="home_img">
+          <img src="/images/New_Profile_Pic.jpg" alt="" />
+        </div>
+
+        <div class="home_text">
+          <h3>Hello</h3>
+          <h2>I'm <span class="color">Esther</span></h2>
+          <p>
+            I am a <span class="color">Frontend Developer</span> with a strong
+            passion for building web applications. <br />
+            Here's a bit more <span class="color">about me</span>.
+          </p>
+
+          <!-- Socials -->
+          <div class="social">
+            <a href="https://twitter.com/_iiesther"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://instagram.com/iiesther"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://linkedin.com/in/esther-nwachukwu-06640a198/"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me -->
+
+    <section class="about container" id="about">
+      <!-- Heading -->
+      <h2 class="heading">About</h2>
+      <!-- About contents -->
+      <div class="about_content">
+        <div class="about_data">
+          <span>About Me</span>
+          <h2>
+            Frontend Developer, <br />
+            Technical Writer & Technical Product Manager
+          </h2>
+        </div>
+
+        <div class="about_text">
+          <p>
+            Hello! I am Esther Nwachukwu. Frontend Developer, Technical Writer
+            and Technical Product Manager.
+          </p>
+          <p>
+            I am currently based in Lagos, Nigeria, and i am from the
+            South-Eastern region of Nigeria.
+          </p>
+          <p>
+            My goal for joining AltSchool Africa is to get necessary technical
+            skills that can help me start a career in software engineering.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills_edu container">
+      <!-- Heading -->
+      <h2 class="heading">Education & Skills</h2>
+      <!-- skills and education content -->
+      <div class="skills_content_container">
+        <span>Skills:</span>
+        <div class="skills_content">
+          <div class="skills_box">
+            <i class="bx bx-code-alt"></i>
+            <h2>Web Development</h2>
+            <p>HTML, CSS, JavaScript & React.</p>
+          </div>
+          <div class="skills_box">
+            <i class="bx bxs-pencil"></i>
+            <h2>Technical Writing</h2>
+            <p>Writing, Research, Proofreading, User Persona Targeting.</p>
+          </div>
+          <div class="skills_box">
+            <i class="bx bxl-product-hunt"></i>
+            <h2>Product Management</h2>
+            <p>Agile, SDLC, Design Thinking, User Research, Scrum, SQL.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- education content -->
+      <section class="edu_content_container">
+        <span>Education:</span>
+        <div class="edu_content">
+          <div class="edu_box">
+            <h2>SCCE</h2>
+            <p>Great Esteem Secondary School, Ijesha, Surulere Lagos state.</p>
+          </div>
+          <div class="edu_box">
+            <h2>BSc; Agric Economics</h2>
+            <p>
+              Micheal Okpara University of Agriculture, Umudike, Abia State.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- job experience and hobbies content -->
+      <section class="job_hobbies_container">
+        <div class="job_hobbies_content">
+          <div class="job_box">
+            <h2>Job Experience:</h2>
+            <p>
+              Current Customer Support and Operations at NIMASA for UPS, Lagos.
+            </p>
+          </div>
+          <!-- hobbies -->
+          <div class="job_box">
+            <h2>Hobbies:</h2>
+            <ul>
+              <li>Reading (mostly articles).</li>
+              <li>Travelling.</li>
+              <li>Trying out food & cocktail recipes.</li>
+              <li>Taking a good nap.</li>
+              <li>Trying new beauty products.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- contact me -->
+    <section class="contact container" id="contact">
+      <!-- Heading -->
+      <h2 class="heading">Contact</h2>
+      <!-- contact form -->
+      <form action="" class="contact_form" id="contact_form">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          placeholder="Your Name"
+          name="name"
+          id="name"
+          class="name"
+          required
+        />
+
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          placeholder="Email Address..."
+          name="email"
+          id="email"
+          class="email"
+          required
+        />
+
+        <label for="message">Message:</label>
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Write Message Here..."
+        ></textarea>
+
+        <label for="priority">Priority:</label>
+        <select name="gender" required>
+          <option value="official">Official</option>
+          <option value="casual">Causal</option>
+        </select>
+
+        <input type="submit" value="Submit" class="send_btn" />
+      </form>
+    </section>
+
+    <!-- Register -->
+    <setion class="register container" id="register">
+      <!-- Heading -->
+      <h2 class="heading">Register</h2>
+      <!-- register form -->
+      <form action="" class="register_form" id="register_form">
+        <label for="first name">First Name:</label>
+        <input
+          type="text"
+          placeholder="First Name"
+          name="first name"
+          id="first-name"
+          class="first-name"
+          required
+        />
+
+        <label for="last name">Last Name:</label>
+        <input
+          type="text"
+          placeholder="Last Name"
+          name="last name"
+          id="last-name"
+          class="last-name"
+          required
+        />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" class="phone" required />
+
+        <!-- gender -->
+        <label for="gender">Gender:</label>
+        <select name="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+
+        <!-- countries -->
+        <label for="country">Country:</label>
+        <select name="country" required>
+          <option value="nigeria">Nigeria</option>
+          <option value="ghana">Ghana</option>
+          <option value="kenya">Kenya</option>
+          <option value="botswana">Botswana</option>
+          <option value="uganda">Uganda</option>
+          <option value="canada">Canada</option>
+          <option value="usa">United states of america</option>
+          <option value="uk">United Kingdom</option>
+        </select>
+
+        <!--- States -->
+        <label for="states">State/Province:</label>
+        <select name="states">
+          <option value="AB">Abia State</option>
+          <option value="AD">Adamawa State</option>
+          <option value="AK">Akwa Ibom State</option>
+          <option value="AN">Anambra State</option>
+          <option value="BA">Bauchi State</option>
+          <option value="BY">Bayelsa State</option>
+          <option value="BE">Benue State</option>
+          <option value="BO">Borno State</option>
+          <option value="CR">Cross River State</option>
+          <option value="DE">Delta State</option>
+          <option value="EB">Ebonyi State</option>
+          <option value="ED">Edo State</option>
+          <option value="EK">Ekiti State</option>
+          <option value="EN">Enugu State</option>
+          <option value="FC">Federal Capital Territory</option>
+          <option value="GO">Gombe State</option>
+          <option value="IM">Imo State</option>
+          <option value="JI">Jigawa State</option>
+          <option value="KD">Kaduna State</option>
+          <option value="KN">Kano State</option>
+          <option value="KT">Katsina State</option>
+          <option value="KE">Kebbi State</option>
+          <option value="KO">Kogi State</option>
+          <option value="KW">Kwara State</option>
+          <option value="LA">Lagos</option>
+          <option value="NA">Nasarawa State</option>
+          <option value="NI">Niger State</option>
+          <option value="OG">Ogun State</option>
+          <option value="ON">Ondo State</option>
+          <option value="OS">Osun State</option>
+          <option value="OY">Oyo State</option>
+          <option value="PL">Plateau State</option>
+          <option value="SO">Sokoto State</option>
+          <option value="TA">Taraba State</option>
+          <option value="YO">Yobe State</option>
+          <option value="ZA">Zamfara State</option>
+        </select>
+
+        <!-- username -->
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          placeholder="Username"
+          id="username"
+          name="username"
+          class="username"
+        />
+        <!-- password -->
+        <label for="pwd">Password:</label>
+        <input
+          type="password"
+          placeholder="Password"
+          id="pwd"
+          name="pwd"
+          class="pwd"
+          required
+        />
+
+        <!-- confirm password -->
+        <label for="cf-pwd">Confirm Password:</label>
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          id="cf-pwd"
+          name="cf-pwd"
+          class="cf-pwd"
+          required
+        />
+        <input type="submit" value="Register" class="send_btn" />
+      </form>
+    </setion>
+
+    <!-- Log In -->
+    <section class="login container" id="login">
+      <!-- Heading -->
+      <h2 class="heading">Log In</h2>
+      <!-- login form -->
+      <form action="" class="login_form" id="login_form">
+        <!-- username -->
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          placeholder="Username"
+          id="username"
+          name="username"
+          class="username login-input"
+        />
+        <!-- password -->
+        <label for="pwd">Password:</label>
+        <input
+          type="password"
+          placeholder="Password"
+          id="pwd"
+          name="pwd"
+          class="pwd login-input"
+          required
+        />
+        <input type="submit" value="Log In" class="send_btn" />
+      </form>
+    </section>
+
+    <section class="container calc_content">
+      <div class="calc_link">
+        <a href="/calculator.html" class="calc_link_btn"
+          >Click Here to Calculator<i class="bx bxs-chevron-down"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer container" id="footer">
+      <div class="social">
+        <a href="mailto:estynwachukwu2016@gmail.com"
+          ><i class="bx bx-envelope"></i
+        ></a>
+        <a href="https://twitter.com/_iiesther"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a href="https://instagram.com/iiesther"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://linkedin.com/in/esther-nwachukwu-06640a198/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+      </div>
+
+      <!-- footer links -->
+      <div class="footer_links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Disclaimer</a>
+      </div>
+
+      <!-- copyright -->
+      <p>&#169;Esther</p>
+    </section>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
